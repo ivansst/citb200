@@ -11,9 +11,9 @@ using std::vector;
 class Invoice {
 public:     
     void add(Product product, int quantity);
-    vector<Product> getProducts();
+    vector<Product> getProduct();
 private:
-    vector<Product> products;
+    vector<Item> items;
 
 };
 
